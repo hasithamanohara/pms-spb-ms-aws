@@ -1,0 +1,13 @@
+### PATCH request to update Patient
+
+PATCH http://localhost:4000/patient/updatePatient?id=123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "hasitha update",
+  "email": "newemail@gmail.com",
+  "address": "",
+  "dateOfBirth":"1998-06-09"
+}
+
+
